@@ -1,0 +1,90 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:helvetica;
+}
+body{
+    background:#ddd;
+}
+main{
+    display:flex;
+    box-shadow:2px 3px 10px black;
+    border-radius:10px;
+}
+main > *{
+    flex-basis:100%;
+}
+.login-form{
+    background:white;
+    text-align:Center;
+    padding-top:20px;
+}
+.log-in-heading{
+    font-size:40px;
+    font-weight:bold;
+    margin-top:25px;
+    margin-bottom:25px;
+}
+.fa-brands{
+    border:1px solid #ddd;
+    padding:15px;
+    font-size:30px;
+    border-radius:50%;
+    width:60px;
+    height:60px;
+    margin-bottom:20px;
+}
+.fa-facebook-f{
+    margin-right:5px;
+}
+.fa-twitter{
+    margin-left:5px;
+}
+input{
+    width:65%;
+    margin-top:10px;
+    margin-bottom:10px;
+    padding:10px;
+    background:#ddd;
+    outline:none;
+    border:1px solid black;
+
+}
+form a{
+    text-decoration:none;
+    margin-top:30px;
+}
+input[type="submit"]{
+    width:30%;
+    background:red;
+    color:white;
+    font-size:16px;
+    border-radius:30px;
+}
+.login-content{
+    text-align:Center;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    background-image:linear-gradient(to right,#ff454d,#ff416a);
+}
+.login-content .text{
+    padding:140px;
+}
+.text h2{
+    color:white;
+    font-size:2.5rem;
+    margin-bottom:10px;
+}
+.text p{
+    color:white;
+    font-size:16px;
+}
+.form-main{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    height:100vh;
+    border-radius: 10px;;
+}
